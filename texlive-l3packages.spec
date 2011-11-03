@@ -1,3 +1,9 @@
+# revision 24257
+# category Package
+# catalog-ctan /macros/latex/contrib/l3packages
+# catalog-date 2011-10-10 01:01:54 +0200
+# catalog-license lppl1.3
+# catalog-version SVN 2900
 Name:		texlive-l3packages
 Version:	0.2900
 Release:	1
@@ -66,6 +72,7 @@ on CTAN is based on a snapshot of the SVN repository on 2011-
 %doc %{_texmfdistdir}/source/latex/l3packages/xparse/xparse.ins
 %doc %{_texmfdistdir}/source/latex/l3packages/xtemplate/xtemplate.dtx
 %doc %{_texmfdistdir}/source/latex/l3packages/xtemplate/xtemplate.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -76,3 +83,5 @@ on CTAN is based on a snapshot of the SVN repository on 2011-
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
