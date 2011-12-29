@@ -34,16 +34,8 @@ Subversion (SVN) repository of the LaTeX3 Project. The bundle
 on CTAN is based on a snapshot of the SVN repository on 2011-
 11-19.
 
-%pre
-    %{_sbindir}/texlive.post
-
 %post
     %{_sbindir}/texlive.post
-
-%preun
-    if [ $1 -eq 0 ]; then
-	%{_sbindir}/texlive.post
-    fi
 
 %postun
     if [ $1 -eq 0 ]; then
@@ -70,7 +62,6 @@ on CTAN is based on a snapshot of the SVN repository on 2011-
 %doc %{_texmfdistdir}/source/latex/l3packages/xparse/xparse.ins
 %doc %{_texmfdistdir}/source/latex/l3packages/xtemplate/xtemplate.dtx
 %doc %{_texmfdistdir}/source/latex/l3packages/xtemplate/xtemplate.ins
-%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -81,5 +72,3 @@ on CTAN is based on a snapshot of the SVN repository on 2011-
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
-mkdir -p %{buildroot}%{_tlpkgobjdir}
-cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
