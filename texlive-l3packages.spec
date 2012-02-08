@@ -1,11 +1,12 @@
-# revision 25159
+# revision 25330
 # category Package
 # catalog-ctan /macros/latex/contrib/l3packages
-# catalog-date 2012-01-19 12:33:14 +0100
+# catalog-date 2012-02-07 16:58:22 +0100
 # catalog-license lppl1.3
-# catalog-version SVN 3209
+# catalog-version SVN 3331
 Name:		texlive-l3packages
-Version:	0.3209
+Epoch:		1
+Version:	SVN3331
 Release:	1
 Summary:	High-level LaTeX3 concepts
 Group:		Publishing
