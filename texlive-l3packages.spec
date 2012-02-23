@@ -1,12 +1,12 @@
-# revision 25330
+# revision 25358
 # category Package
 # catalog-ctan /macros/latex/contrib/l3packages
-# catalog-date 2012-02-07 16:58:22 +0100
+# catalog-date 2012-02-08 22:35:49 +0100
 # catalog-license lppl1.3
-# catalog-version SVN 3331
+# catalog-version SVN 3341
 Name:		texlive-l3packages
 Epoch:		1
-Version:	SVN3331
+Version:	SVN3341
 Release:	1
 Summary:	High-level LaTeX3 concepts
 Group:		Publishing
@@ -55,7 +55,6 @@ on CTAN is based on a snapshot of the SVN repository on 2012-
 %doc %{_texmfdistdir}/doc/latex/l3packages/xparse/xparse.pdf
 %doc %{_texmfdistdir}/doc/latex/l3packages/xtemplate/xtemplate.pdf
 #- source
-%doc %{_texmfdistdir}/source/latex/l3packages/l3keys2e/l3keys2e-demo.tex
 %doc %{_texmfdistdir}/source/latex/l3packages/l3keys2e/l3keys2e.dtx
 %doc %{_texmfdistdir}/source/latex/l3packages/l3keys2e/l3keys2e.ins
 %doc %{_texmfdistdir}/source/latex/l3packages/xfrac/xfrac.dtx
