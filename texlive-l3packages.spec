@@ -1,12 +1,12 @@
-# revision 26110
+# revision 27109
 # category Package
 # catalog-ctan /macros/latex/contrib/l3packages
-# catalog-date 2012-04-23 21:12:05 +0200
+# catalog-date 2012-07-16 14:26:04 +0200
 # catalog-license lppl1.3
-# catalog-version SVN 3570
+# catalog-version SVN 3990
 Name:		texlive-l3packages
 Epoch:		1
-Version:	SVN3570
+Version:	SVN3990
 Release:	1
 Summary:	High-level LaTeX3 concepts
 Group:		Publishing
@@ -33,7 +33,7 @@ means of defining generic functions using a key-value syntax.
 All the files of the bundle are also available in the
 Subversion (SVN) repository of the LaTeX3 Project. The bundle
 on CTAN is based on a snapshot of the SVN repository on 2012-
-01-19.
+07-16.
 
 %post
     %{_sbindir}/texlive.post
