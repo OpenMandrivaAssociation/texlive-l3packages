@@ -1,12 +1,12 @@
-# revision 31865
+# revision 32204
 # category Package
 # catalog-ctan /macros/latex/contrib/l3packages
-# catalog-date 2013-10-08 19:55:47 +0200
+# catalog-date 2013-11-21 21:20:37 +0100
 # catalog-license lppl1.3
-# catalog-version SVN 4595
+# catalog-version SVN 4610
 Name:		texlive-l3packages
 Epoch:		1
-Version:	SVN4595
+Version:	SVN4610
 Release:	1
 Summary:	High-level LaTeX3 concepts
 Group:		Publishing
@@ -32,9 +32,9 @@ declaring document commands; and - xtemplate, which provides a
 means of defining generic functions using a key-value syntax.
 All the files of the bundle are also available in the
 Subversion (SVN) repository of the LaTeX3 Project. The bundle
-on CTAN is based on a snapshot of the SVN repository on 2013-
-07-12; it should be used with copies of the l3kernel at SVN
-version 2544 or later.
+on CTAN is based on a snapshot of the SVN repository on; it
+should be used with copies of the l3kernel at SVN version 2544
+or later.
 
 %post
     %{_sbindir}/texlive.post
