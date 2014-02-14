@@ -1,13 +1,13 @@
-# revision 32204
+# revision 32537
 # category Package
 # catalog-ctan /macros/latex/contrib/l3packages
-# catalog-date 2013-11-21 21:20:37 +0100
+# catalog-date 2014-01-01 10:11:48 +0100
 # catalog-license lppl1.3
-# catalog-version SVN 4610
+# catalog-version SVN 4634
 Name:		texlive-l3packages
 Epoch:		1
-Version:	SVN4610
-Release:	5
+Version:	SVN4634
+Release:	1
 Summary:	High-level LaTeX3 concepts
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/l3packages
