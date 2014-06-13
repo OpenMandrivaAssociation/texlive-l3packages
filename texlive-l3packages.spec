@@ -7,7 +7,7 @@
 Name:		texlive-l3packages
 Epoch:		1
 Version:	SVN4634
-Release:	1
+Release:	2
 Summary:	High-level LaTeX3 concepts
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/l3packages
