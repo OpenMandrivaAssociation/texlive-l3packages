@@ -1,13 +1,13 @@
-# revision 32537
+# revision 34268
 # category Package
 # catalog-ctan /macros/latex/contrib/l3packages
-# catalog-date 2014-01-01 10:11:48 +0100
+# catalog-date 2014-06-10 18:54:52 +0200
 # catalog-license lppl1.3
-# catalog-version SVN 4634
+# catalog-version SVN 5015
 Name:		texlive-l3packages
 Epoch:		1
-Version:	SVN4634
-Release:	2
+Version:	SVN5015
+Release:	1
 Summary:	High-level LaTeX3 concepts
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/l3packages
@@ -24,11 +24,11 @@ Requires(post):	texlive-kpathsea
 The bundle holds prototype implementations of concepts for a
 LaTeX designer interface, to be used with the experimental
 LaTeX kernel as programming tools and kernel support. Packages
-provided in this release are: - l3keys2e, which makes the
+provided in this release are: l3keys2e, which makes the
 facilities of the kernel module l3keys available for use by
-LaTeX 2e packages; - xfrac, which provides flexible split-level
-fractions; - xparse, which provides a high-level interface for
-declaring document commands; and - xtemplate, which provides a
+LaTeX 2e packages; xfrac, which provides flexible split-level
+fractions; xparse, which provides a high-level interface for
+declaring document commands; and xtemplate, which provides a
 means of defining generic functions using a key-value syntax.
 All the files of the bundle are also available in the
 Subversion (SVN) repository of the LaTeX3 Project. The bundle
@@ -51,6 +51,7 @@ or later.
 %{_texmfdistdir}/tex/latex/l3packages/xparse/xparse.sty
 %{_texmfdistdir}/tex/latex/l3packages/xtemplate/xtemplate.sty
 %doc %{_texmfdistdir}/doc/latex/l3packages/README
+%doc %{_texmfdistdir}/doc/latex/l3packages/l3keys2e/l3keys2e-demo.tex
 %doc %{_texmfdistdir}/doc/latex/l3packages/l3keys2e/l3keys2e.pdf
 %doc %{_texmfdistdir}/doc/latex/l3packages/xfrac/xfrac.pdf
 %doc %{_texmfdistdir}/doc/latex/l3packages/xparse/xparse.pdf
