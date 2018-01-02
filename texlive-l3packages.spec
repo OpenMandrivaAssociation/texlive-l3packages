@@ -1,13 +1,7 @@
-# revision 34268
-# category Package
-# catalog-ctan /macros/latex/contrib/l3packages
-# catalog-date 2014-06-10 18:54:52 +0200
-# catalog-license lppl1.3
-# catalog-version SVN 5015
 Name:		texlive-l3packages
 Epoch:		1
-Version:	SVN5015
-Release:	4
+Version:	20171216
+Release:	1
 Summary:	High-level LaTeX3 concepts
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/l3packages
@@ -46,25 +40,10 @@ or later.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/latex/l3packages/l3keys2e/l3keys2e.sty
-%{_texmfdistdir}/tex/latex/l3packages/xfrac/xfrac.sty
-%{_texmfdistdir}/tex/latex/l3packages/xparse/xparse.sty
-%{_texmfdistdir}/tex/latex/l3packages/xtemplate/xtemplate.sty
-%doc %{_texmfdistdir}/doc/latex/l3packages/README
-%doc %{_texmfdistdir}/doc/latex/l3packages/l3keys2e/l3keys2e-demo.tex
-%doc %{_texmfdistdir}/doc/latex/l3packages/l3keys2e/l3keys2e.pdf
-%doc %{_texmfdistdir}/doc/latex/l3packages/xfrac/xfrac.pdf
-%doc %{_texmfdistdir}/doc/latex/l3packages/xparse/xparse.pdf
-%doc %{_texmfdistdir}/doc/latex/l3packages/xtemplate/xtemplate.pdf
+%{_texmfdistdir}/tex/latex/l3packages
+%doc %{_texmfdistdir}/doc/latex/l3packages
 #- source
-%doc %{_texmfdistdir}/source/latex/l3packages/l3keys2e/l3keys2e.dtx
-%doc %{_texmfdistdir}/source/latex/l3packages/l3keys2e/l3keys2e.ins
-%doc %{_texmfdistdir}/source/latex/l3packages/xfrac/xfrac.dtx
-%doc %{_texmfdistdir}/source/latex/l3packages/xfrac/xfrac.ins
-%doc %{_texmfdistdir}/source/latex/l3packages/xparse/xparse.dtx
-%doc %{_texmfdistdir}/source/latex/l3packages/xparse/xparse.ins
-%doc %{_texmfdistdir}/source/latex/l3packages/xtemplate/xtemplate.dtx
-%doc %{_texmfdistdir}/source/latex/l3packages/xtemplate/xtemplate.ins
+%doc %{_texmfdistdir}/source/latex/l3packages
 
 #-----------------------------------------------------------------------
 %prep
