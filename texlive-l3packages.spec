@@ -1,7 +1,7 @@
 Name:		texlive-l3packages
 Epoch:		1
-Version:	20180514
-Release:	3
+Version:	20181019
+Release:	1
 Summary:	High-level LaTeX3 concepts
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/l3packages
