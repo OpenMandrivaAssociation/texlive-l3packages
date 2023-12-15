@@ -1,6 +1,6 @@
 Name:		texlive-l3packages
 Epoch:		1
-Version:	65722
+Version:	68507
 Release:	1
 Summary:	High-level LaTeX3 concepts
 Group:		Publishing
