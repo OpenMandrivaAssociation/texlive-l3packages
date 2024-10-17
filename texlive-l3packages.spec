@@ -4,7 +4,7 @@ Version:	72128
 Release:	1
 Summary:	High-level LaTeX3 concepts
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/l3packages
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/l3packages
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/l3packages.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/l3packages.doc.r%{version}.tar.xz
